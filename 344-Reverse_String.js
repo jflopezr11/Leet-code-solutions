@@ -13,6 +13,10 @@ Example 2:
 Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]*/
 
+/* I will be using Jest for unit testing. */
+
+
+
 //My first solution
 var reverseString = function(s) {
     return s.reverse();

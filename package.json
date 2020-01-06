@@ -1,0 +1,24 @@
+{
+  "name": "Leet-code-solutions",
+  "version": "1.0.0",
+  "description": "I will be posting my leetcode answers.",
+  "main": "344-Reverse_String.js",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jflopezr11/Leet-code-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jflopezr11/Leet-code-solutions/issues"
+  },
+  "homepage": "https://github.com/jflopezr11/Leet-code-solutions#readme"
+}
