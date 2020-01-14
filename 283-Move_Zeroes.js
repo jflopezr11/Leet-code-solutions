@@ -11,15 +11,12 @@ Minimize the total number of operations.*/
 
 
 
-let numArray = [0,1,0,3,12];
-
-moveZeros = (numArray) => {
-
-    numArray.sort();
-
-}; 
-
-console.log(numArray);
-
+var moveZeroes = function(nums) {
+    for (let i = 0, l = nums.length; i < l; i++) {
+        if (nums[i] !== 0) continue
+        nums.splice(i--, 1) // remove at i, decrease i by 1
+        nums.splice(l--, 0, 0) // append to end, decrease l by 1
+    }
+};
 
 
